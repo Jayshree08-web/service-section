@@ -1,0 +1,22 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.parent
+{
+	padding: 5px;
+	width: 1200px;
+	background-color: lightgrey;
+	display: flex;
+	margin: auto;
+}
+ .child
+ {
+ 	width: 50%;
+ 	height: 5px;
+ 	background-color: #f2f2f2;
+ 	margin: 5px;
+ }

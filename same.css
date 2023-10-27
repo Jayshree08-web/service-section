@@ -1,0 +1,37 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.same
+{
+	width: 300px;
+	height: 300px;
+	background: green;
+	position: relative;
+}
+
+.same::before
+{
+	content: '';
+	background: red;
+	position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -30px;
+    bottom:-30px;
+    z-index: -1;
+}
+
+

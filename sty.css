@@ -1,0 +1,524 @@
+*
+  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+  }
+
+    nav
+    {
+    	padding: 5px;
+    	width: 100%;
+    	position: fixed;
+    	top: 0;
+    	z-index: 5;
+    	background-color: rgba(0,0,0,0.6);
+
+    }
+
+       .container
+
+       {
+       	/*padding: 5px;*/
+       	max-width: 1200px;
+       	/*background-color: blue;*/
+       	margin: auto;
+       	display: flex;
+       	justify-content: space-between;
+
+       }
+     .container .logo
+    {
+    	font-size: 3vw;
+    	text-decoration: none;
+    	color: white;
+
+    }
+    .ulist
+    {
+    
+      list-style: none;
+      
+
+    }
+     .ulist li
+     {
+     	display: inline-block;
+     	padding: 10px 22px;
+     }
+
+      .ulist li a
+      {
+      	color: white;
+      	text-decoration: none;
+      	font-size: 18px;
+      }
+      
+      .ulist li:hover
+      {
+      	background-color: gold;
+      	border-radius: 10px 10px;
+      	transition: 1s;
+      }
+     
+   
+/*-----------------------------------------------------------------------------------*/
+  #home
+  {
+  	height: 100vh;
+    background-image: url(img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;	
+  }
+
+  .main
+  {
+  	max-width: 800px;
+  	width: 100%;
+  	padding: 10px;
+  	/*background-color: green;*/
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%,-50%);
+
+  }
+  .mt-20
+  {
+  	margin-bottom: 20px;
+  }
+  .main p
+  {
+  	text-align: center;
+  	color: white;
+  	font-size: 3vw;
+  }
+   
+   .main h1
+   {
+   	text-align: center;
+   	color: white;
+   	font-size: 5vw;
+   }
+   .btn
+   {
+   	padding: 15px 10px;
+   	background-color: red;
+   	font-size: 18px;
+   	border: none;
+   	border-radius: 5px 5px;
+   	position: absolute;
+   	left: 50%;
+   	transform: translateX(-50%);
+
+   }
+    .btn:hover
+    {
+    	background-color: red;
+    	border-radius: 50px;
+    	color: white;
+      transition: 1s;
+    }
+    /*--------------------------------------------------------------------*/
+		#about{width: 100%; height: 100vh;}
+		.price
+		{
+			max-width: 950px;
+			width: 100%;
+			/*padding: 10px;*/
+			margin: auto;
+
+
+			/*background-color: lightgrey;*/
+		}
+		.price h2
+		{
+			text-align: center;
+			padding-top: 58px;
+			padding-bottom: 10px;
+		}
+
+		.price p
+		{
+			text-align: center;
+		}
+
+		 .coloumn
+		 {
+		 	width: 100%;
+		 	padding: 10px;
+		 	/*background-color: skyblue;*/
+		 	display: flex;
+		 }
+
+				  .header
+		  {
+		  	width: 33.3%;
+		  	padding: 20px;
+		  	/*background-color: teal;*/
+		  	margin: 5px;
+		  }
+		  .nlist
+		  {
+		  	list-style: none;
+		  }
+		  
+		  .nlist .firstli
+		  {
+		  	font-size: 22px;
+		  	color: white;
+		  	text-align: center;
+		  	background: black;
+		  	padding:  20px 5px;
+
+		  }
+		  .secondli
+		  {
+		  	font-size: 18px;
+		  	text-align: center;
+		  	background: lightgrey;
+		  	padding: 20px 5px;
+		  	border: 2px  lightgrey;
+		  }
+		  .all
+		  {
+		  	font-size: 18px;
+		  	text-align: center;
+		  	/*background: white;*/
+		  	padding: 20px 5px;
+		  	border: 0.8px solid grey;
+		  }
+		  
+		  .button
+		  {
+		  	padding: 10px 15px;
+		  	background-color: seagreen;
+		  	font-family: monospace;
+		  	font-size: 18px;
+		  	text-decoration: none;
+		  	color: white;
+		  }
+		  
+
+		 .color
+		 {
+		 	background: seagreen!important;
+		 }
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+		 .upper
+   	     {
+   	     	width: 100%;
+   	     	padding: 20px 52px;
+   	     	background-color: lightgrey;
+           margin: 80px 0px;
+
+   	     }
+
+   	    .upper h2
+   	    {
+   	    	text-align: center;
+   	    	font-size: 22px;
+
+   	    	/*margin-bottom: 20px;*/
+   	    }
+   	    .small
+   	    {
+   	    	padding: 3px;
+   	    	width: 150px;
+   	    	background: black;
+   	    	margin: 20px auto;
+   	    	border-radius: 5px 5px;
+
+   	    }
+   	    .para
+   	    {
+   	    	width: 100%;
+   	    	padding:5px;
+   	    	display: flex;
+   	    	/*background-color: coral;*/ 	
+   	    }
+   	    .para1
+   	     {
+   	     	width: 33.3%;
+   	     	padding: 10px;
+   	     	background-color: #f2f2f2;
+   	     }
+   	     .para1 h2
+   	     {
+   	     	text-align: center;
+   	     	font-size: 18px;
+   	     	margin-top: 20px;
+   	     }
+   	     .para p
+   	     {
+   	     	text-align: center;
+   	     	font-size: 14px;
+   	     	margin-bottom: 20px;
+
+   	     }
+   	     .ikon
+   	     {
+   	     	width: 50px;
+   	     	height: 50px;
+   	     	/*background-color: skyblue;*/
+   	     	margin: 5px auto;
+   	     	border-radius:50%;
+   	     }
+   	     .ikon i
+   	     {
+   	     	color: skyblue;
+   	     	font-size: 32px;
+   	     	text-align: center;
+   	     	margin-top: 20px auto;
+
+   	     }
+   	   
+   	   /*--------------------------------------------------------------------------*/
+   	      #team
+          {
+            background: lightgreen;
+            width: 100%;
+            /*padding: 10px;*/
+            margin: 170px 0px;
+          }
+          #team h1
+          {
+            padding-top: 40px;
+            margin-bottom: 40px;
+            font-size: 38px;
+            text-align: center;
+            font-family: monotype corsiva;
+           }
+          #team .teambox
+          {
+            width: 950px;
+            max-width: 100%;
+            padding: 5px;
+            /*background: lightgreen;*/
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+
+          }
+          .teampart
+          {
+            width: 33.3%;
+            padding: 5px;
+            /*height: 500px;*/
+            background: white;
+            position: relative;
+            margin: 35px;
+
+          }
+          .teampart .golu
+          {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: lightgreen;
+            left: 50%;
+            top: -50px;
+            padding: 5px;
+            transform: translateX(-50%);
+
+          }
+          .golu img{width: 100%;
+            height: 100%;
+
+          }
+         .teampart h2
+         {
+          font-size: 30px;
+          text-align: center;
+          margin-top: 60px;
+          color: green;
+         }
+
+         .teampart h3
+         {
+          font-size: 18px;
+          color: grey;
+          text-align: center;
+           margin: 18px 0px;
+         }
+        .teampart p
+        {
+          text-align: center;
+        } 
+        /*---------------------------------------------------------------------------*/
+         #portfolio
+         {
+          background-image: url(img/bg.jpg);
+          width: 100%;
+          padding: 10px;
+         }
+
+         #portfolio h2
+         {
+          text-align: center;
+          font-size: 38px;
+          color: white;
+          font-family: monotype corsiva;
+          padding:40px 15px;
+         }
+         
+         .smal
+        {
+          padding: 3px;
+          width: 150px;
+          background: skyblue;
+          margin: 5px auto;
+          border-radius: 5px 5px;
+
+        }
+
+        .portmain
+        {
+          max-width: 900px;
+          width: 100%;
+          /*padding: 20px;*/
+          /*background: coral;*/
+          margin: 30px auto;
+          display: flex;
+          justify-content: space-around;
+          
+          
+        }
+        .portpart
+        {
+          width: 33.3%;
+          padding: 10px;
+          /*background: #f2f2f2;*/
+          position: relative;
+          margin: 10px;
+
+        }
+        .portpart h3
+        {
+             text-align: center;
+             font-size: 22px;
+            margin-top: 42px;
+            padding-top: 52px;
+            color: lightgrey;
+        }
+
+        .portpart p
+        {
+          text-align: center;
+          padding-top: 20px;
+          color: lightgrey;
+        }
+        .sqr
+        {
+          width: 70px;
+          height: 70px;
+          transform: rotate(45deg);
+          border: 3px solid skyblue;
+          position: absolute;
+          left: 40%;
+          margin-top: 12px;
+          text-align: center;
+        }
+        
+        .sqr .ikon i
+        {
+          
+          transform: rotate(-45deg);
+          line-height: 55px;
+          font-size: 24px;
+
+        }
+        /*-----------------------------------------------------------------------------*/
+        
+        footer
+    {
+      max-width:1200;
+      width: 100%;
+      padding: 60px;
+      background: black;
+
+    }
+    .footermain
+    {
+      max-width: 1150;
+      width: 100%;
+      /*background: teal;*/
+      padding: 20px;
+      display: flex;
+    }
+    .footerbox
+    {
+      width: 25%;
+      /*padding: 5px;*/
+      /*background-color: white;*/
+      margin: 5px;
+
+    }
+    .footerbox h3
+    {
+      color: #f2f2f2;
+      font-weight: bold;
+    }
+    .footermin
+    {
+      width: 65px;
+      padding: 1px;
+      background:red;
+    }
+    .fulist
+    {
+      list-style: none;
+      margin-top: 25px;
+    }
+    .fulist li
+    {
+      font-size: 20px;
+      color: lightgrey;
+
+    }
+    .ftrikon
+    {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: grey;
+        margin: 35px 10px;
+        text-align: center;
+
+    }
+    .alg
+    {
+      display: flex;
+      /*background-color: green;*/
+      justify-content: center;
+    }
+    .ftr-last
+    {
+      width: 100%;
+      padding: 5px;
+      background-color: lightgrey;
+    }
+    .ftr-last p
+    {
+      text-align: center;
+      font-size: 20px;
+    }
+          .txt
+          {
+            color: #feee;
+          }
+          .ftrikon i
+          {
+            
+            color: darkgrey;
+            font-size: 25px;
+            line-height: 50px;
+          
+
+          }
